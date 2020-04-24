@@ -16,7 +16,7 @@ from IPython.display import clear_output
 
 
 
-file = "data.csv"
+file = "dataset1.csv"
 states = pd.read_csv(file,
                      usecols=['TimeStampDate', 'CountyName', 'ConfirmedCovidCases'],
                      parse_dates=['TimeStampDate'],
